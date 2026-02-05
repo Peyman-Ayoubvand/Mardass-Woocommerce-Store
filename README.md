@@ -2,13 +2,16 @@
 
 A fashion e-commerce website built with WordPress and WooCommerce.
 
+---
+
 ## Project Overview
-This project demonstrates building a complete WooCommerce store
-with focus on clean UI, user-friendly shopping flow, and responsive design.
+This project demonstrates building a complete WooCommerce store with a focus on clean UI, user-friendly shopping flow, and responsive design.
+
+---
 
 ## Development Notes
-### WordPress Initial Setup & Security
 
+### WordPress Initial Setup & Security
 - Installed WordPress (clean install)
 - Installed Wordfence Security plugin
 
@@ -25,6 +28,8 @@ with focus on clean UI, user-friendly shopping flow, and responsive design.
 - XML-RPC: Disabled
 - Basic firewall rules configured in Wordfence
 
+---
+
 ## Responsibilities
 - Set up WordPress & WooCommerce from scratch
 - Designed pages using Elementor (Home, Shop, Product, Cart, Checkout)
@@ -34,6 +39,8 @@ with focus on clean UI, user-friendly shopping flow, and responsive design.
 - Optimized the site for mobile and tablet devices
 - Applied basic SEO and security best practices
 
+---
+
 ## Tools & Technologies
 - WordPress
 - WooCommerce
@@ -41,9 +48,12 @@ with focus on clean UI, user-friendly shopping flow, and responsive design.
 - Rank Math SEO
 - Wordfence Security
 
+---
+
 ## Live Demo
 https://www.mardass.com/
 
+---
+
 ## Notes
-This project focuses on a practical WooCommerce implementation
-rather than custom backend development.
+This project focuses on a practical WooCommerce implementation rather than custom backend development.
