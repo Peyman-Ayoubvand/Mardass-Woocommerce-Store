@@ -20,7 +20,7 @@ This project documents the process of building and configuring a WooCommerce onl
 
 - Clean WordPress installation
 - WooCommerce setup
-- Security configuration with Wordfence
+- Security configuration with Wordfence (brute force protection, 2FA, firewall rules, CAPTCHA enabled)
 
 ---
 
