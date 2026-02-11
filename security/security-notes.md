@@ -1,0 +1,3 @@
+# Security Notes
+- SSL: enabled/disabled
+- Security plugin: ...
