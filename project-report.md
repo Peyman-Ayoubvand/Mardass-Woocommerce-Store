@@ -30,8 +30,7 @@ This project documents the process of building and configuring a WooCommerce onl
 
 - Clean WordPress installation
 - WooCommerce setup
-- Security configuration with Wordfence  
-  (brute force protection, 2FA, firewall rules, CAPTCHA enabled)
+- Security configuration with Wordfence
 
 ---
 
@@ -40,6 +39,15 @@ This project documents the process of building and configuring a WooCommerce onl
 - WordPress
 - WooCommerce
 - Wordfence Security
+
+---
+
+## Documentation
+
+- [Setup Guide](setup-guide/installation.md)
+- [Architecture](architecture/project-structure.md)
+- [Security Details](security/security-notes.md)
+- [Performance Notes](performance/optimization-notes.md)
 
 ---
 
