@@ -34,10 +34,12 @@ This project documents the process of building and configuring a WooCommerce onl
 
 ## Documentation
 
-- Setup Guide → setup-guide/installation.md
-- Architecture → architecture/project-structure.md
-- Security Details → security/security-notes.md
-- Performance Notes → performance/optimization-notes.md
+## Documentation
+
+- [Setup Guide](setup-guide/installation.md)
+- [Architecture](architecture/project-structure.md)
+- [Security Details](security/security-notes.md)
+- [Performance Notes](performance/optimization-notes.md)
 
 ---
 
