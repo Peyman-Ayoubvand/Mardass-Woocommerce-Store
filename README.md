@@ -34,8 +34,6 @@ This project documents the process of building and configuring a WooCommerce onl
 
 ## Documentation
 
-## Documentation
-
 - [Setup Guide](setup-guide/installation.md)
 - [Architecture](architecture/project-structure.md)
 - [Security Details](security/security-notes.md)
