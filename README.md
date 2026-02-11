@@ -4,54 +4,47 @@ A fashion e-commerce website built with WordPress and WooCommerce.
 
 ---
 
-## Project Overview
-This project demonstrates building a complete WooCommerce store with a focus on clean UI, user-friendly shopping flow, and responsive design.
+## Project Status
+
+🚧 In Progress
 
 ---
 
-## Development Notes
+## Overview
 
-### WordPress Initial Setup & Security
-- Installed WordPress (clean install)
-- Installed Wordfence Security plugin
-
-#### Wordfence – Brute Force Protection
-- Brute force protection: Enabled
-- Lockout after 5 failed login attempts
-- Lockout after 5 failed forgot password attempts
-- Failed attempts counted over 30 minutes
-- User lockout duration: 30 minutes
-
-#### Additional Security Settings
-- Two-Factor Authentication (2FA): Enabled
-- CAPTCHA enabled on login
-- XML-RPC: Disabled
-- Basic firewall rules configured in Wordfence
+This project documents the process of building and configuring a WooCommerce online store, focusing on security, structure, and practical implementation.
 
 ---
 
-## Responsibilities
-- Set up WordPress & WooCommerce from scratch
-- Designed pages using Elementor (Home, Shop, Product, Cart, Checkout)
-- Configured simple and variable products
-- Implemented shipping rules and discount coupons
-- Improved checkout UX for better conversion
-- Optimized the site for mobile and tablet devices
-- Applied basic SEO and security best practices
+## Completed So Far
+
+- Clean WordPress installation
+- WooCommerce setup
+- Security configuration with Wordfence
 
 ---
 
-## Tools & Technologies
+## Tech Stack
+
 - WordPress
 - WooCommerce
-- Elementor
-- Rank Math SEO
 - Wordfence Security
 
 ---
 
+## Documentation
+
+- Setup Guide → setup-guide/installation.md
+- Architecture → architecture/project-structure.md
+- Security Details → security/security-notes.md
+- Performance Notes → performance/optimization-notes.md
+
+---
+
 ## Live Demo
+
 https://www.mardass.com/
+
 
 ---
 
