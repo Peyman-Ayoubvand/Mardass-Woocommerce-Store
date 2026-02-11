@@ -34,7 +34,6 @@ This project documents the process of building and configuring a WooCommerce onl
 - WooCommerce
 - Wordfence Security
 - WooCommerce CSV Import System
-- Basic SEO Product Structuring
 
 ---
 
