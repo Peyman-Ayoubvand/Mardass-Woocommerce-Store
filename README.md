@@ -21,6 +21,10 @@ This project documents the process of building and configuring a WooCommerce onl
 - Clean WordPress installation
 - WooCommerce setup
 - Security configuration with Wordfence (brute force protection, 2FA, firewall rules, CAPTCHA enabled)
+- Structured product data architecture (SKU system, category structure, variable product logic)
+- CSV-based product import
+- SEO-oriented product naming strategy
+- Stock management per variation
 
 ---
 
@@ -29,6 +33,8 @@ This project documents the process of building and configuring a WooCommerce onl
 - WordPress
 - WooCommerce
 - Wordfence Security
+- WooCommerce CSV Import System
+- Basic SEO Product Structuring
 
 ---
 
@@ -38,6 +44,8 @@ This project documents the process of building and configuring a WooCommerce onl
 - [Architecture](architecture/project-structure.md)
 - [Security Details](security/security-notes.md)
 - [Performance Notes](performance/optimization-notes.md)
+- [Product Structure](product-structure/product-architecture.md)
+
 
 ---
 
