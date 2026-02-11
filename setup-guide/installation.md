@@ -1,0 +1,3 @@
+# Installation
+- WordPress installed on: ...
+- WooCommerce installed and configured
