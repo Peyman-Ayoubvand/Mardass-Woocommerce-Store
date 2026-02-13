@@ -3,10 +3,10 @@
 ## Context
 
 During the development of this WooCommerce store,  
-variable products were imported using the default CSV importer.
+variable products were imported using the default WooCommerce CSV importer.
 
 Parent products were created successfully.  
-However, variations were not properly recognized by the system.
+However, variations were not consistently built or recognized as purchasable.
 
 ---
 
@@ -16,7 +16,7 @@ However, variations were not properly recognized by the system.
 - Attribute values were visible
 - Variation rows were included in the CSV
 - Some products appeared as **Out of stock**
-- Variations were not selectable or purchasable
+- Variations were not selectable in the product page
 
 ---
 
@@ -40,30 +40,32 @@ All data appeared structurally correct.
 The default WooCommerce CSV importer does not always fully rebuild  
 the internal structure of variable products after import.
 
-As a result:
+In some cases, variations exist in the system  
+but the product is not fully synchronized,  
+which causes it to behave as non-purchasable or out of stock.
 
-- Variations may exist in the system
-- But the product is not fully synchronized
-- The product can appear non-purchasable or out of stock
-
-The issue was not incorrect CSV formatting,  
-but incomplete post-import synchronization.
+This was identified as a limitation/behavior of the default importer  
+rather than an incorrect CSV structure.
 
 ---
 
 ## Resolution
 
-- Parent products were imported via CSV
-- Variations were re-saved in the admin panel to trigger synchronization
-- Once synchronized, products became selectable and purchasable
+To complete the project efficiently:
 
-For larger-scale imports, a dedicated import tool or automated post-import rebuild process is recommended.
+- Parent products were imported via CSV
+- Variations were created and finalized manually in the admin interface
+- This triggered WooCommerce to properly rebuild the variable product structure
+
+For production-level or large-scale imports,  
+a specialized import tool (e.g., WP All Import)  
+or an automated post-import synchronization process would be recommended.
 
 ---
 
 ## Key Takeaway
 
-Importing variable products in WooCommerce is not only about importing data —  
-it also requires proper rebuilding of product relationships.
+Importing variable products in WooCommerce is not only about data fields —  
+It requires the correct rebuilding of product relationships.
 
-Without that rebuild step, products may exist but remain functionally invalid.
+Understanding system behavior is essential when working with structured product data.
